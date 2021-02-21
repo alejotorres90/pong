@@ -1,0 +1,95 @@
+#schedule-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ribbon {
+    background-repeat: no-repeat;
+    width: 306px; 
+    height: 36px;
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#schedule-matches-container {
+    margin: auto;
+    max-width: 1500px;
+}
+
+.schedule-match {
+    background-repeat: no-repeat;
+    width: 294px;
+    height: 136px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.schedule-match-played {
+    cursor: pointer;
+}
+
+.schedule-player-one, .schedule-player-two {
+    padding-top: 27px;
+    display: flex;
+    width: 100%;
+}
+
+.schedule-player-name {
+    width: 76%;
+    font-size: 24px;
+}
+
+.schedule-player-points {
+    width: 25%;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.schedule-player-two {
+    padding-top: 36px;
+}
+
+#schedule-positions, #schedule-next-match {
+    font-size: 16px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+#schedule-positions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#schedule-next-match {
+    margin-bottom: 25px;
+}
+
+#schedule-positions:focus, #schedule-next-match:focus {
+    outline: none;
+}
+
+#schedule-positions:active, #schedule-next-match:active {
+    height: 37px;
+    padding-top: 3px;
+    /*style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/small-button-pressed.png)" }}*/
+    background-repeat: no-repeat;
+}
+
+#schedule-positions:active {
+    margin-top: 13px;
+}
+
+#schedule-next-match:active {
+    margin-top: 3px;
+}

@@ -1,0 +1,88 @@
+#number-players-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#number-players-box {
+    width: 314px;
+    height: 136px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#numberPlayers {
+    font-size: 24px;
+    width: 230px;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+#number-players-button-container {
+    width: 84px;
+    height: 136px;
+    margin-top: 13px;
+}
+
+#number-players-up {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+#number-players-up:focus {
+    outline: none;
+}
+
+#number-players-up:active {
+    margin-top: 3px;
+    height: 47px;
+    /* style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/up-button-pressed.png)" }} */
+}
+
+#number-players-down {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+}
+
+#number-players-down:focus {
+    outline: none;
+}
+
+#number-players-down:active {
+    margin-top: 3px;
+    height: 47px;
+    /* style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/down-button-pressed.png)" }} */
+}
+
+#number-players-continue, #number-players-new-league {
+    background-color: transparent;
+    width: 314px;
+    height: 50px;
+    margin-bottom: 25px;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#number-players-continue:focus, #number-players-new-league:focus {
+    outline: none;
+}
+
+#number-players-continue:active, #number-players-new-league:active {
+    padding-top: 4px;
+    margin-top: 3px;
+    height: 47px;
+    /* style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/big-button-pressed.png)" }} */
+}

@@ -1,0 +1,61 @@
+#players-names-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ribbon {
+    background-repeat: no-repeat;
+    width: 306px; 
+    height: 36px;
+    padding-top: 13px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#players-names-input-container {
+    margin: auto;
+    padding-left: 15px;
+    max-width: 1500px;
+}
+
+.players-names-input {
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    width: 165px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.players-names-input:focus {
+    outline: none;
+}
+
+#players-names-continue {
+    font-size: 16px;
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    margin-top: 32px;
+    margin-bottom: 25px;
+    border: 0;
+    cursor: pointer;
+}
+
+#players-names-continue:focus {
+    outline: none;
+}
+
+#players-names-continue:active {
+    padding-top: 3px;
+    margin-top: 35px;
+    height: 37px;
+    /* style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/imgs/small-button-pressed.png)" }} */
+}
